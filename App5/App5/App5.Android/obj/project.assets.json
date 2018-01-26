@@ -868,24 +868,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KURA\\.nuget\\packages\\": {},
+    "C:\\Users\\azuma\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "projectUniqueName": "F:\\Users\\azuma\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\App5.Android.csproj",
       "projectName": "App5.Android",
-      "projectPath": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\App5.Android.csproj",
-      "packagesPath": "C:\\Users\\KURA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\obj\\",
+      "projectPath": "F:\\Users\\azuma\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "packagesPath": "C:\\Users\\azuma\\.nuget\\packages\\",
+      "outputPath": "F:\\Users\\azuma\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\KURA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\azuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -894,14 +894,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid60": {
           "projectReferences": {
-            "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5\\App5.csproj": {
-              "projectPath": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5\\App5.csproj"
+            "F:\\Users\\azuma\\Documents\\C#\\c-\\App5\\App5\\App5\\App5.csproj": {
+              "projectPath": "F:\\Users\\azuma\\Documents\\C#\\c-\\App5\\App5\\App5\\App5.csproj"
             }
           }
         }

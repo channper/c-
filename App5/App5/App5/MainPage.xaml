@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:App5"
              x:Class="App5.MainPage">
 
-    <>
+    <かくにん>
         <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="labelStyle" TargetType="Label">
