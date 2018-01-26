@@ -874,11 +874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KURA\\source\\repos\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "projectUniqueName": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\App5.Android.csproj",
       "projectName": "App5.Android",
-      "projectPath": "C:\\Users\\KURA\\source\\repos\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "projectPath": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\App5.Android.csproj",
       "packagesPath": "C:\\Users\\KURA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KURA\\source\\repos\\App5\\App5\\App5.Android\\obj\\",
+      "outputPath": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -900,8 +900,8 @@
       "frameworks": {
         "monoandroid60": {
           "projectReferences": {
-            "C:\\Users\\KURA\\source\\repos\\App5\\App5\\App5\\App5.csproj": {
-              "projectPath": "C:\\Users\\KURA\\source\\repos\\App5\\App5\\App5\\App5.csproj"
+            "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5\\App5.csproj": {
+              "projectPath": "C:\\Users\\KURA\\Documents\\C#\\c-\\App5\\App5\\App5\\App5.csproj"
             }
           }
         }
