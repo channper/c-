@@ -4,7 +4,6 @@
              xmlns:local="clr-namespace:App5"
              x:Class="App5.MainPage">
 
-    <かくにん>
         <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="labelStyle" TargetType="Label">
@@ -43,11 +42,41 @@
                         </Button>
                     </StackLayout>
                 </StackLayout>
+                <StackLayout>
+                    <StackLayout Padding="10,10,10,10" HorizontalOptions="Start"/>
+                    <Label Text="都道府県" Style="{StaticResorce labelStyle}"/>
+                    <ContentView Style="{StaticResorce feildview}">
+                        <Label x:Name="stateNameLabel"
+                               Text="{Binding stateNmae}"
+                               Style="{StaticResorce feildstyle}">
+                            <Label.TextColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="Black"/>
+                            </Label.TextColor>
+                        </Label>
+                    </ContentView>
+                    <Label Text="市・町・群名" Style="{StaticResorce labelStyle}"/>
+                    <ContentView Style="{StaticResorce feildview}">
+                        <Label x:Name="cityLabel"
+                               Text="{Binding city}"
+                               Style="{StaticReSrce fieldstyle}">
+                            <Label.TextColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="Black"/>
+                            </Label.TextColor>
+                        </Label>
+                    </ContentView>
+                    <Label Text="町・村名" Style="{StaticResorce labelStyle}"/>
+                    <ContentView Style="{StaticResorce feildview}">
+                        <Label x:Name="streetLabel"
+                               Text="{Binding street}"
+                               Style="{StaticResorce feildstyle}">
+                            <Label.TextColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="Black"/>
+                            </Label.TextColor>
+                        </Label>
+                    </ContentView>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
 
 </ContentPage>

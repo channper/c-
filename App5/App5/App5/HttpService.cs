@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Threading.Tasks;
+
 
 namespace App5
 {
@@ -10,15 +14,15 @@ namespace App5
             getDateFormService(string queryString)
         {
             dynamic date = null;
-            HttpClient = new HttpClient();
+            HttpClient client = new HttpClient();
             var response = await client.GetAsync(queryString);
 
             if((response != null) &&! ((int)response.StatusCode >= 400))
                 {
                 string json = response.Content.ReadAsStringAsync().Result;
-                data = JsonConvert.DeserrializeObject(json);
+                date = JsonConvert.DeserializeObject(json);
             }
-            return data;
+            return date;
         }
     }
 }

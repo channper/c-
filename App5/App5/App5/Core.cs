@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace App5
 {
@@ -11,13 +12,13 @@ namespace App5
             string pzNumber = address.Substring(0, 3);
         string taNumber = address.Substring(3);
         string queryString = "http://api.thin.net/jzip/X0401/JSON/" + pzNumber + "/" + taNumber + ".js";
-        dynamic results = await HttpService.getDataFormService(queryString).ConfigureAwait(false);
+        dynamic results = await HttpService.getDateFormService(queryString).ConfigureAwait(false);
 
-        if((results != null)&&(!string.IsNullOrEmpty((string) results["state"wo])))
+        if((results != null)&&(!string.IsNullOrEmpty((string)results["state" ])))
         {
         Address Ad = new Address();
         Ad.state = (string) results["state"];
-        Ad.stateNmae = (string)results["stateNmae"];
+        Ad.stateName = (string)results["stateNmae"];
         Ad.city =(string)results["city"];
         Ad.street=(string)results["street"];
         return Ad;
