@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App5"
+             x:Class="App5.MainPage">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#a8a8a8" />
+                <Setter Property="Fontize" Value="Small"/>
+            </Style>
+            <Style x:Key="fieldStyle" TargetType="Label">
+                <Setter Property="TextColor" >
+                    <OnPlatfarm x:TypeArguments="Color" Android="White" />
+                </Setter>
+                <Setter Property="Fontize" Value="Modium"/>
+            </Style>
+            <Style x:Key="fieldView" TargetType="ContentView">
+                <Setter Property="Padding" Value="10,0,0,0" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#545454">
+                    <StackLayout Padding="10,10,10,10" HorizontalOptions="Start">
+                        <Label Text="住所検索" TextColor="White" FontAttributes="Bold" FontSize="Medium"/>
+                        <Label x:Name="AddressLabel" Text="郵便番号" Style="{StaticResorce labelStyle}"/>
+                        <Entry x:Name="AddressEntry" WidthRequest="100"/>
+                    </StackLayout>
+                    <StackLayout Padding="0,0,0,10" VerticalOptions="End">
+                        <Button x:Name="getAddressSearchBtn" Text="検索" WidthRequest="60" BorderWidth="1">
+                            <Button.TextColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="White"/>
+                            </Button.TextColor>
+                            <Button.BorderColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="White"/>
+                            </Button.BorderColor>
+                        </Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+	<Label Text="Welcome to Xamarin.Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+</ContentPage>
