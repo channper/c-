@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:App5"
              x:Class="App5.MainPage">
 
-
-    <ContentPage.Resources>
+    <>
+        <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="labelStyle" TargetType="Label">
                 <Setter Property="TextColor" Value="#a8a8a8" />
